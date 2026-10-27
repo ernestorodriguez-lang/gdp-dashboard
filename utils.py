@@ -86,7 +86,7 @@ BASES = {
         titulo='Exámenes', fecha='fecha_alta',
         mantener=['mes', 'direccion_general', 'entidad', 'sede', 'curp', 'matricula', 'discapacidad',
                   'sexo', 'plan', 'etapa_de_solicitud', 'fase_de_solicitud', 'clave_del_modulo',
-                  'modulo', 'fecha_alta', 'clasificacion'],
+                  'modulo', 'Fecha alta', 'clasificacion'],
         fechas=['fecha_alta'], numericas=[],
         filtros=['direccion_general', 'entidad', 'sede', 'modulo', 'etapa_de_solicitud',
                  'fase_de_solicitud', 'clasificacion', 'sexo'],

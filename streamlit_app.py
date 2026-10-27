@@ -14,7 +14,7 @@ st.write(
 st.divider()
 col1, col2 = st.columns(2)
 with col1:
-    st.page_link('/pages/1_Seguimiento.py', label='Seguimiento académico', icon='📋')
+    st.page_link('pages/1_Seguimiento.py', label='Seguimiento académico', icon='📋')
     st.page_link('pages/2_Examenes.py', label='Exámenes (PA y PM)', icon='📝')
     st.page_link('pages/3_Certificados.py', label='Certificados', icon='🎓')
     st.page_link('pages/4_Inscritos.py', label='Inscritos', icon='✍️')

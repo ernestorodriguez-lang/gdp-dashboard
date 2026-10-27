@@ -1,11 +1,11 @@
 from utils import pagina_estandar
 
 pagina_estandar(
-    'certificados',
+    'inscritos',
     dims=[
         ('entidad', 'Por entidad'), ('plantel', 'Top 15 planteles'),
-        ('direccion_general', 'Por dirección general'), ('permanencia', 'Por permanencia'),
+        ('plan', 'Por plan de estudios'), ('direccion_general', 'Por dirección general'),
         ('sexo', 'Por sexo'), ('discapacidad', 'Por discapacidad'),
     ],
-    medias=[('Edad promedio', 'edad')],
+    dividir_plan=True,  # pestañas Todos / PA / PM
 )

@@ -1,11 +1,12 @@
 from utils import pagina_estandar
 
 pagina_estandar(
-    'inscritos',
+    'egresados',
     dims=[
         ('entidad', 'Por entidad'), ('plantel', 'Top 15 planteles'),
-        ('plan', 'Por plan de estudios'), ('direccion_general', 'Por dirección general'),
-        ('sexo', 'Por sexo'), ('discapacidad', 'Por discapacidad'),
+        ('area_de_estudios', 'Por área de estudios'), ('estatus', 'Por estatus'),
+        ('permanencia', 'Por permanencia'), ('sexo', 'Por sexo'), ('discapacidad', 'Por discapacidad'),
     ],
+    medias=[('Promedio general', 'promedio_general'), ('Permanencia (años)', 'permanencia_anios')],
     dividir_plan=True,  # pestañas Todos / PA / PM
 )
